@@ -96,7 +96,7 @@ df["REVIEW"]=df["REVIEW"].apply(clean)
 df["REVIEW"].apply(clean)
 
 
-# SENTIMENT INTNSITY ANALYSIS
+# SENTIMENT INTENSITY ANALYSIS
 nltk.download('vader_lexicon')
 sentiments=SentimentIntensityAnalyzer()
 
